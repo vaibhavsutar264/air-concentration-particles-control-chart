@@ -29,7 +29,7 @@ const Pm1Particles = () => {
     };
     const keralaReadings = {
       id: "Kerala",
-      color: theme.palette.secondary[300],
+      color: theme.palette.secondary[900],
       data: [],
     };
 

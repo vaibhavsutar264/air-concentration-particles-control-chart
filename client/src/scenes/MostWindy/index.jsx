@@ -28,7 +28,7 @@ const MostWindy = () => {
     };
     const keralaReadings = {
       id: "Kerala",
-      color: theme.palette.secondary[300],
+      color: theme.palette.secondary[900],
       data: [],
     };
     Object.values(most_windy_days).forEach(({ date, delhi, mumbai, kerala }) => {

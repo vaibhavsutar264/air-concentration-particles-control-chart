@@ -29,7 +29,7 @@ const DelhiParticles = () => {
     };
     const pm10_readings = {
       id: "PM 10 particles in micrograms per cubic meter (µg/m³)",
-      color: theme.palette.secondary[300],
+      color: theme.palette.secondary[900],
       data: [],
     };
 

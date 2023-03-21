@@ -17,28 +17,29 @@ export const tokensDark = {
   },
   primary: {
     // blue
-    100: "#d3d4de",
-    200: "#a6a9be",
-    300: "#7a7f9d",
-    400: "#4d547d",
+    100: "#e47ce6",
+    200: "#b57ccc",
+    300: "#977a9d",
+    400: "#734d7d",
     500: "#21295c",
-    600: "#191F45", // manually adjusted
-    700: "#141937",
-    800: "#0d1025",
-    900: "#070812",
+    600: "#45193e", // manually adjusted
+    700: "#361437",
+    800: "#250d24",
+    900: "#120712",
   },
   secondary: {
     // yellow
     50: "#f0f0f0", // manually adjusted
-    100: "#fff6e0",
-    200: "#ffedc2",
-    300: "#ffe3a3",
-    400: "#ffda85",
-    500: "#ffd166",
-    600: "#cca752",
-    700: "#997d3d",
-    800: "#665429",
-    900: "#332a14",
+    100: "#ffe0e0",
+    200: "#ffc2c2",
+    300: "#ffa3a9",
+    400: "#ff8585",
+    500: "#ff6666",
+    600: "#cc5252",
+    700: "#993d3d",
+    800: "#662929",
+    900: "#2b0dd6",
+    1000: "#d60d6b"
   },
 };
 
@@ -82,7 +83,7 @@ export const themeSettings = (mode) => {
             },
             background: {
               default: tokensDark.primary[600],
-              alt: tokensDark.primary[500],
+              alt: tokensDark.secondary[1000],
             },
           }
         : {
